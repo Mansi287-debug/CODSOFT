@@ -1,9 +1,9 @@
 def display_menu():
     print("To-Do List Menu:")
-    print("Please select one option from the following:- ")
-    print("1. Add a new task")
-    print("2. View all tasks")
-    print("3. Exit")
+    print('''Please select one option from the following:- 
+          1. Add a new task
+          2. View all tasks
+          3. Exit''')
 
 def add_task(tasks):
     task = input("Enter the new task: ")
