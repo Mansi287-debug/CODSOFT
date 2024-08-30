@@ -20,7 +20,7 @@ def play_game():
             continue
 
         computer_choice = random.choice(choices)
-        print(f"Computer chose {computer_choice}.")
+        print(f"Computer choose {computer_choice}.")
         
         result = determine_winner(user_choice, computer_choice)
         print(result)
